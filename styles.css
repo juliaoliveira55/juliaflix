@@ -1,0 +1,48 @@
+body{
+color:whitesmoke;
+background:black;
+margin: 10px;
+font-family: "Oswald", sans-serif;
+margin-bottom: 100px;
+}
+
+header{
+border-bottom: solid 1px whitesmoke;
+padding: 22px;
+font-size: 32px;
+color:darkred;
+}
+.chamada{
+background: #7c0000;
+padding-bottom: 70px;
+padding-top: 70px;
+display:flex;
+justify-content: center;
+font-family: "Questrial", sans-serif;
+}
+.chamada-texto{ 
+    margin-right:7%
+}
+h1{ 
+    font-size: 20px;
+}
+img {
+height: 200px;
+}
+.categoria-videos{
+display: flex;
+overflow-x: auto;
+ gap:20px;
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria-videos img{
+    opacity: 0.5;
+}
+.categoria-videos img:hover {
+opacity: 1.0;
+border: 2px solid darkred;
+}
